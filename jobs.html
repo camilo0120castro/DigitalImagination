@@ -24,24 +24,8 @@
 </head>
 
 <body>
-    <header class="header">
-        <picture class="logo"> <a href="./index.html">
-                <source media="(min-width:1024px)" srcset="">
-                <source media="(min-width:600px)" srcset="">
-                <img loading="eager" src="" alt="Logo Digital Imagination Header">
-            </a> <!-- TODO: Add accessibility -->
-        </picture>
+    <site-header active-page="jobs"></site-header>
 
-        <nav class="header-nav">
-            <ul class="nav">
-                <li> <a href="./index.html"> Home </a> </li>
-                <li> <a href="./art.html"> Art </a> </li>
-                <li> <a href="./radio.html"> Radio </a> </li>
-                <!-- <li> <a href="#"> Jobs </a> </li> -->
-                <li> <a href="./about.html"> About Us </a> </li>
-            </ul>
-        </nav>
-    </header>
 
     <main class="main">
         <h1>Jobs</h1>
@@ -54,16 +38,8 @@
 
     </main>
 
-    <footer class="footer">
-        <picture> <a href="./index.html">
-                <source media="(min-width:1024px)" srcset="">
-                <source media="(min-width:600px)" srcset="">
-                <img loading="eager" src="" alt="Logo Digital Imagination Footer">
-            </a> <!-- TODO: Add accessibility -->
-        </picture>
-        <p id="copyright-year">[YEAR] © Digital Imagination<br> All rights reserved</p>
-    </footer>
-    <script src="./scripts/footer.js"></script>
+    <site-footer></site-footer>
 </body>
+<script src="./scripts/components.js"></script>
 
 </html>

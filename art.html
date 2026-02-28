@@ -24,24 +24,8 @@
 </head>
 
 <body>
-    <header class="header">
-        <picture class="logo"> <a href="./index.html">
-                <source media="(min-width:1024px)" srcset="">
-                <source media="(min-width:600px)" srcset="">
-                <img loading="eager" src="" alt="Digital Imagination's logo Header" title="Digital Imagination's logo">
-            </a>
-        </picture>
+    <site-header active-page="art"></site-header>
 
-        <nav class="header-nav">
-            <ul class="nav">
-                <li> <a href="./index.html"> Home </a> </li>
-                <li> <a href="#"> Art </a> </li>
-                <li> <a href="./radio.html"> Radio </a> </li>
-                <!-- <li> <a href="./jobs.html"> Jobs </a> </li> -->
-                <li> <a href="./about.html"> About Us </a> </li>
-            </ul>
-        </nav>
-    </header>
 
     <main class="main">
         <section>
@@ -70,48 +54,8 @@
         </p>
     </main>
 
-    <footer class="footer">
-        <article>
-            <h4>Dreams Shape The World</h4>
-            <picture> <a href="./index.html">
-                    <source media="(min-width:1024px)" srcset="">
-                    <source media="(min-width:600px)" srcset="">
-                    <img loading="eager" src="" alt="Digital Imagination's logo Footer"
-                        title="Digital Imagination's logo">
-                </a>
-            </picture>
-        </article>
-
-        <p id="copyright-year">[YEAR] © Digital Imagination<br> All rights reserved</p>
-
-        <section class="footer_social-media">
-            <picture> <a href="https://www.twitter.com/digital_img1" target="_blank">
-                    <source media="(min-width:1024px)" srcset="">
-                    <source media="(min-width:600px)" srcset="">
-                    <img loading="eager" src="./twitter.svg" alt="Digital Imagination's Twitter"
-                        title="Digital Imagination's Twitter">
-                </a>
-            </picture>
-
-            <picture> <a href="https://www.instagram.com/digital.img1" target="_blank">
-                    <source media="(min-width:1024px)" srcset="">
-                    <source media="(min-width:600px)" srcset="">
-                    <img loading="eager" src="./facebook.svg" alt="Digital Imagination's Instagram"
-                        title="Digital Imagination's Instagram">
-                </a>
-            </picture>
-
-            <picture> <a href="https://www.youtube.com/channel/UCCKW9yhr0bNlYVWjHsf8iXw" target="_blank">
-                    <source media="(min-width:1024px)" srcset="">
-                    <source media="(min-width:600px)" srcset="">
-                    <img loading="eager" src="./youtube-icon.svg" alt="Digital Imagination's YouTube"
-                        title="Digital Imagination's YouTube">
-                </a>
-            </picture>
-
-        </section>
-    </footer>
+    <site-footer full-footer></site-footer>
 </body>
-<script src="./scripts/footer.js"></script>
+<script src="./scripts/components.js"></script>
 
 </html>
