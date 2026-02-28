@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- ! El idioma está en inglés -->
+<html lang="en"> <!-- ! The language is English -->
+
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="This page is about "> <!-- TODO: Completar -->
+    <meta name="description" content="This page is about "> <!-- TODO: Complete -->
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Digital Imagination: Work With Us</title>
 
-    <!-- Estilos CSS -->  
-    <!-- <link rel="stylesheet" href="./styles/Normalize.css"> *! TODO: Colocar Normalizw cSS -->
+    <!-- CSS Styles -->
+    <!-- <link rel="stylesheet" href="./styles/Normalize.css"> *! TODO: Add Normalize CSS -->
     <link rel="stylesheet" href="./styles/header_Mobile.css">
     <link rel="stylesheet" href="./styles/header_Tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="./styles/header_Desktop.css" media="screen and (min-width: 1024px)">
@@ -24,17 +26,18 @@
 <body>
     <header class="header">
         <picture class="logo"> <a href="./index.html">
-            <source media="(min-width:1024px)" srcset="">
-            <source media="(min-width:600px)" srcset="">
-            <img loading="eager" src="" alt="Logo Digital Imagination Header" > </a> <!-- TODO: Colocar accesibilidad -->
+                <source media="(min-width:1024px)" srcset="">
+                <source media="(min-width:600px)" srcset="">
+                <img loading="eager" src="" alt="Logo Digital Imagination Header">
+            </a> <!-- TODO: Add accessibility -->
         </picture>
-                
+
         <nav class="header-nav">
             <ul class="nav">
                 <li> <a href="./index.html"> Home </a> </li>
                 <li> <a href="./art.html"> Art </a> </li>
                 <li> <a href="./radio.html"> Radio </a> </li>
-                <li> <a href="#"> Jobs </a> </li>
+                <!-- <li> <a href="#"> Jobs </a> </li> -->
                 <li> <a href="./about.html"> About Us </a> </li>
             </ul>
         </nav>
@@ -43,16 +46,24 @@
     <main class="main">
         <h1>Jobs</h1>
         <p>Work with us</p>
-        <p class="main_text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, minus. Optio molestiae exercitationem at, laudantium repellat temporibus nobis officiis, non possimus fugit soluta consequuntur quos aliquid debitis sit iure veniam, excepturi consectetur dolor voluptates ipsam totam quod! Possimus vel, provident beatae eos commodi ea error, totam porro qui autem suscipit voluptate quo soluta laudantium illo. </p>
-        
+        <p class="main_text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, minus. Optio molestiae
+            exercitationem at, laudantium repellat temporibus nobis officiis, non possimus fugit soluta consequuntur
+            quos aliquid debitis sit iure veniam, excepturi consectetur dolor voluptates ipsam totam quod! Possimus vel,
+            provident beatae eos commodi ea error, totam porro qui autem suscipit voluptate quo soluta laudantium illo.
+        </p>
+
     </main>
 
     <footer class="footer">
-        <picture>
-            <source media="(min-width:1024px)" srcset="">
-            <source media="(min-width:600px)" srcset="">
-            <img loading="eager" src="" alt="Logo Digital Imagination Footer" > </a> <!-- TODO: Colocar accesibilidad -->
+        <picture> <a href="./index.html">
+                <source media="(min-width:1024px)" srcset="">
+                <source media="(min-width:600px)" srcset="">
+                <img loading="eager" src="" alt="Logo Digital Imagination Footer">
+            </a> <!-- TODO: Add accessibility -->
         </picture>
-        <p>[YEAR] © Digital Imagination<br> All rights reserved</p>
+        <p id="copyright-year">[YEAR] © Digital Imagination<br> All rights reserved</p>
+    </footer>
+    <script src="./scripts/footer.js"></script>
 </body>
+
 </html>
