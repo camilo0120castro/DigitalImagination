@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-eggshell: #FDFBF7;
+  --color-eggshell-dark: #F2EFE9;
+  --color-espresso: #2D2A26;
+  --color-espresso-light: #3D3934;
+  --color-terracotta: #E07A5F;
+  --color-terracotta-hover: #D0694E;
+  --color-forest: #4A5D4E;
+  
+  --font-sans: "Outfit", "Inter", sans-serif;
+  --font-serif: "Inter", sans-serif; /* fallback */
+}
+
+@layer base {
+  body {
+    @apply bg-eggshell text-espresso font-sans antialiased min-h-screen selection:bg-terracotta selection:text-white;
+  }
+}
